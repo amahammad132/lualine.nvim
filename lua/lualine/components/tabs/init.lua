@@ -171,7 +171,6 @@ vim.cmd([[
     else
       unlet t:tabname
     end
-    redrawtabline
   endfunction
 
   command! -nargs=? LualineRenameTab call LualineRenameTab("<args>")
